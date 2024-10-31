@@ -1,0 +1,25 @@
+.md_qcache_table {
+    width: 95%;
+}
+.md_qcache_table td:nth-child(2) {
+    text-align: right;
+}
+.md_qcache_table tr:nth-child(3), .md_qcache_table tr:nth-child(9), .md_qcache_table tr:last-child {
+    box-shadow: 0 1px 0 rgba(0,0,0,.08);
+}
+
+.md_qcache_table tr:nth-child(1) td:nth-child(2), .md_qcache_table tr:nth-child(2) td:nth-child(2) {
+    color: #040;
+}
+.md_qcache_table tr:nth-child(4) td:nth-child(2), 
+    tr:nth-child(5) td:nth-child(2), 
+    tr:nth-child(6) td:nth-child(2),
+    tr:nth-child(7) td:nth-child(2) {
+    tr:nth-child(8) td:nth-child(2) {
+    color: #666;
+}
+
+.md_qcache_p.submit {
+    width: 95%;
+    text-align: right;
+}
